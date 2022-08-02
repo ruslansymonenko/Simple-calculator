@@ -1,0 +1,145 @@
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #E5E5E5;
+    font-family: 'Saira', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 596px;
+    width: 414px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(133, 133, 133, 0.25);
+    border-radius: 5px;
+}
+
+.calc__header {
+    height: 190px;
+    width: 370px;
+    margin: 5px;
+}
+
+.calc__display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #E5E5E5;
+    border-radius: 15px;
+}
+
+.calc__display__operations {
+    height: 75%;
+    width: 90%;
+    margin: 3px;
+    text-align: right;
+}
+
+.operations_list {
+
+}
+.operations__list__item {
+    margin: 5px;
+    color: #B6B6B6;
+}
+
+.calc_display_result {
+    height: 25%;
+    width: 90%;
+    margin: 5px;
+    border: none;
+    color: #3F4556;
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+    text-align: right;
+    background-color: #f5f5f5b3;
+    cursor: auto;
+    border-radius: 10px;
+}
+.calc_display_result:focus {
+    outline: none;
+}
+
+.calc__main {
+    height: 380px;
+    width: 370px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+}
+
+.row {
+    position: relative;
+}
+
+.btn {
+    font-size: 41px;
+    background-color: #353742;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    margin: 3px 8px;
+    border: none;
+    font-family: 'Saira', sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn:hover {
+    background-color: #FF806E;
+}
+.btn:active {
+    transform: scale(0.92);
+}
+
+.equals_btn {
+    position: absolute;
+    height: 140px;
+    top: -71px;
+    right: -2px;
+    background-color: #FF806E;
+    transition: 0.6s;
+}
+.equals_btn:hover {
+    color: #FF806E;
+    background-color: white;
+}
+
+.btn_c {
+    background-color: #FF806E;
+    transition: 0.6s;
+}
+.btn_c:hover {
+    color: #FF806E;
+    background-color: white;
+}
+
+.btn_operations {
+    color: white;
+    color: #FF806E;
+    transition: 0.6s;
+}
+.btn_operations:hover {
+    color: white;
+    background-color: #FF806E;
+}
